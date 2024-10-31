@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\_Work_\Hetic\M2\hackaton\out\build\mypreset\CMakeFiles\fc45cc83e578ba483344b424d38ac163\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{A7452C6E-9F2F-3496-831D-A4CFC062370E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

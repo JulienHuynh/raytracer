@@ -1,0 +1,6 @@
+D:/_Work_/Hetic/M2/hackaton/out/build/mypreset/CMakeFiles/raytracer.dir
+D:/_Work_/Hetic/M2/hackaton/out/build/mypreset/CMakeFiles/ALL_BUILD.dir
+D:/_Work_/Hetic/M2/hackaton/out/build/mypreset/CMakeFiles/ZERO_CHECK.dir
+D:/_Work_/Hetic/M2/hackaton/out/build/mypreset/src/raymath/CMakeFiles/raymath.dir
+D:/_Work_/Hetic/M2/hackaton/out/build/mypreset/src/rayimage/CMakeFiles/rayimage.dir
+D:/_Work_/Hetic/M2/hackaton/out/build/mypreset/src/lodepng/CMakeFiles/lodepng.dir

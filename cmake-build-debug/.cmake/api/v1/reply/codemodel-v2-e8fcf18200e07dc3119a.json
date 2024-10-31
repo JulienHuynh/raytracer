@@ -1,0 +1,138 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "src/raymath",
+					"jsonFile" : "directory-src.raymath-Debug-d1b04ee920c5a9bcce0a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/raymath",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "src/rayimage",
+					"jsonFile" : "directory-src.rayimage-Debug-47f82430889bd663ff31.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/rayimage",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "src/lodepng",
+					"jsonFile" : "directory-src.lodepng-Debug-83a16d958f8bcbc652ee.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/lodepng",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					],
+					"name" : "raytracer",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 3,
+					"id" : "lodepng::@6dd9cb7dcd367fc046d7",
+					"jsonFile" : "target-lodepng-Debug-1ab3005573c47f53932e.json",
+					"name" : "lodepng",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "rayimage::@87f3d43851fe6584dd6b",
+					"jsonFile" : "target-rayimage-Debug-bb8f4d1be6bb2fe099e5.json",
+					"name" : "rayimage",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "raymath::@7b20e2d34ff6df29bd19",
+					"jsonFile" : "target-raymath-Debug-0550b9d6d5447fbb6788.json",
+					"name" : "raymath",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "raytracer::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-raytracer-Debug-0d063912c7d3b5e64de3.json",
+					"name" : "raytracer",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/julienhuynh/Documents/workspace/archives/hackaton 5/cmake-build-debug",
+		"source" : "/Users/julienhuynh/Documents/workspace/archives/hackaton 5"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

@@ -1,0 +1,10 @@
+^D:\_WORK_\HETIC\M2\HACKATON\SRC\RAYIMAGE\CMAKELISTS.TXT
+setlocal
+C:\Users\samue\scoop\apps\cmake\3.30.5\bin\cmake.exe -SD:/_Work_/Hetic/M2/hackaton -BD:/_Work_/Hetic/M2/hackaton/out/build/mypreset --check-stamp-file D:/_Work_/Hetic/M2/hackaton/out/build/mypreset/src/rayimage/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

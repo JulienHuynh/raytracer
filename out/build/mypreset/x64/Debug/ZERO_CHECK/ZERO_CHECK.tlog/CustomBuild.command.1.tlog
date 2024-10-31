@@ -1,0 +1,10 @@
+^D:\_WORK_\HETIC\M2\HACKATON\OUT\BUILD\MYPRESET\CMAKEFILES\FC45CC83E578BA483344B424D38AC163\GENERATE.STAMP.RULE
+setlocal
+C:\Users\samue\scoop\apps\cmake\3.30.5\bin\cmake.exe -SD:/_Work_/Hetic/M2/hackaton -BD:/_Work_/Hetic/M2/hackaton/out/build/mypreset --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/_Work_/Hetic/M2/hackaton/out/build/mypreset/raytracer.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,576 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						5
+					]
+				},
+				{
+					"build" : "src/raymath",
+					"jsonFile" : "directory-src.raymath-Debug-f0fcb51fc08868b209ff.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/raymath",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "src/rayimage",
+					"jsonFile" : "directory-src.rayimage-Debug-eb728027b5ac65cff0b0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/rayimage",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "src/lodepng",
+					"jsonFile" : "directory-src.lodepng-Debug-310e4235849057889bc6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/lodepng",
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					],
+					"name" : "raytracer",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Debug-3b8829b065e4c0d46c79.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Debug-4040dbdb9e30244ab091.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "lodepng::@6dd9cb7dcd367fc046d7",
+					"jsonFile" : "target-lodepng-Debug-b52a7b67dc1c6e227abe.json",
+					"name" : "lodepng",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "rayimage::@87f3d43851fe6584dd6b",
+					"jsonFile" : "target-rayimage-Debug-684da2778c3bdf362efa.json",
+					"name" : "rayimage",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "raymath::@7b20e2d34ff6df29bd19",
+					"jsonFile" : "target-raymath-Debug-974bcee8cc71275ced48.json",
+					"name" : "raymath",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "raytracer::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-raytracer-Debug-6faf251d6d9751643359.json",
+					"name" : "raytracer",
+					"projectIndex" : 0
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3
+					],
+					"jsonFile" : "directory-.-Release-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						5
+					]
+				},
+				{
+					"build" : "src/raymath",
+					"jsonFile" : "directory-src.raymath-Release-f0fcb51fc08868b209ff.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/raymath",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "src/rayimage",
+					"jsonFile" : "directory-src.rayimage-Release-eb728027b5ac65cff0b0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/rayimage",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "src/lodepng",
+					"jsonFile" : "directory-src.lodepng-Release-310e4235849057889bc6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/lodepng",
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					],
+					"name" : "raytracer",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Release-3b8829b065e4c0d46c79.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Release-4040dbdb9e30244ab091.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "lodepng::@6dd9cb7dcd367fc046d7",
+					"jsonFile" : "target-lodepng-Release-707ca4f1c58ff0883a5f.json",
+					"name" : "lodepng",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "rayimage::@87f3d43851fe6584dd6b",
+					"jsonFile" : "target-rayimage-Release-908237ca2fce2f1f3492.json",
+					"name" : "rayimage",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "raymath::@7b20e2d34ff6df29bd19",
+					"jsonFile" : "target-raymath-Release-2de90025798e97469157.json",
+					"name" : "raymath",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "raytracer::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-raytracer-Release-4fc9d64760f0303fd7d4.json",
+					"name" : "raytracer",
+					"projectIndex" : 0
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3
+					],
+					"jsonFile" : "directory-.-MinSizeRel-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						5
+					]
+				},
+				{
+					"build" : "src/raymath",
+					"jsonFile" : "directory-src.raymath-MinSizeRel-f0fcb51fc08868b209ff.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/raymath",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "src/rayimage",
+					"jsonFile" : "directory-src.rayimage-MinSizeRel-eb728027b5ac65cff0b0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/rayimage",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "src/lodepng",
+					"jsonFile" : "directory-src.lodepng-MinSizeRel-310e4235849057889bc6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/lodepng",
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"name" : "MinSizeRel",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					],
+					"name" : "raytracer",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-3b8829b065e4c0d46c79.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-MinSizeRel-4040dbdb9e30244ab091.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "lodepng::@6dd9cb7dcd367fc046d7",
+					"jsonFile" : "target-lodepng-MinSizeRel-cb81e06e1ff85f1a0536.json",
+					"name" : "lodepng",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "rayimage::@87f3d43851fe6584dd6b",
+					"jsonFile" : "target-rayimage-MinSizeRel-1bfd3db3c0dc8882fc36.json",
+					"name" : "rayimage",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "raymath::@7b20e2d34ff6df29bd19",
+					"jsonFile" : "target-raymath-MinSizeRel-5ee2367b6f84cf083d15.json",
+					"name" : "raymath",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "raytracer::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-raytracer-MinSizeRel-820631f0710b66fc2840.json",
+					"name" : "raytracer",
+					"projectIndex" : 0
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3
+					],
+					"jsonFile" : "directory-.-RelWithDebInfo-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						5
+					]
+				},
+				{
+					"build" : "src/raymath",
+					"jsonFile" : "directory-src.raymath-RelWithDebInfo-f0fcb51fc08868b209ff.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/raymath",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "src/rayimage",
+					"jsonFile" : "directory-src.rayimage-RelWithDebInfo-eb728027b5ac65cff0b0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/rayimage",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "src/lodepng",
+					"jsonFile" : "directory-src.lodepng-RelWithDebInfo-310e4235849057889bc6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/lodepng",
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"name" : "RelWithDebInfo",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					],
+					"name" : "raytracer",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-3b8829b065e4c0d46c79.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-RelWithDebInfo-4040dbdb9e30244ab091.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "lodepng::@6dd9cb7dcd367fc046d7",
+					"jsonFile" : "target-lodepng-RelWithDebInfo-050d21e224a54b1d7d17.json",
+					"name" : "lodepng",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "rayimage::@87f3d43851fe6584dd6b",
+					"jsonFile" : "target-rayimage-RelWithDebInfo-3bc92a2ec32c4b7ee8f4.json",
+					"name" : "rayimage",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "raymath::@7b20e2d34ff6df29bd19",
+					"jsonFile" : "target-raymath-RelWithDebInfo-bbb19a9d039efd0fda71.json",
+					"name" : "raymath",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "raytracer::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-raytracer-RelWithDebInfo-ab058b4c8dbf7181a3cd.json",
+					"name" : "raytracer",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/_Work_/Hetic/M2/hackaton/out/build/mypreset",
+		"source" : "D:/_Work_/Hetic/M2/hackaton"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

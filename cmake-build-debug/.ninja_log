@@ -1,0 +1,19 @@
+# ninja log v6
+0	380	1730382266925908886	src/raymath/CMakeFiles/raymath.dir/Color.cpp.o	3d5395ebf7efe91b
+382	407	1730382267307419300	src/raymath/libraymath.a	7e65825acdd90189
+0	420	1730382266926161504	src/rayimage/CMakeFiles/rayimage.dir/Image.cpp.o	65caac70b1843374
+420	443	1730382267345467441	src/rayimage/librayimage.a	808ba0df95e67053
+1	454	1730382266926419538	CMakeFiles/raytracer.dir/main.cpp.o	3a662f53a7bd27fa
+1	497	1730382266926292209	src/lodepng/CMakeFiles/lodepng.dir/lodepng.cpp.o	277830457dd27f2b
+497	520	1730382267422902308	src/lodepng/liblodepng.a	a73c4d8e09943996
+520	554	1730382267445465633	raytracer	c4fc47edfa96d72e
+6	456	1730382374791557076	CMakeFiles/raytracer.dir/main.cpp.o	3a662f53a7bd27fa
+456	494	1730382375241505319	raytracer	c4fc47edfa96d72e
+6	579	1730382699892344631	CMakeFiles/raytracer.dir/main.cpp.o	3a662f53a7bd27fa
+579	683	1730382700465953527	raytracer	c4fc47edfa96d72e
+6	454	1730382735776485829	CMakeFiles/raytracer.dir/main.cpp.o	3a662f53a7bd27fa
+454	489	1730382736224229884	raytracer	c4fc47edfa96d72e
+7	461	1730383094179261828	CMakeFiles/raytracer.dir/main.cpp.o	3a662f53a7bd27fa
+461	500	1730383094633242249	raytracer	c4fc47edfa96d72e
+7	592	1730383299706708061	CMakeFiles/raytracer.dir/main.cpp.o	3a662f53a7bd27fa
+592	695	1730383300291500226	raytracer	c4fc47edfa96d72e
